@@ -1,0 +1,14 @@
+# Git ignore for the diarization folder
+
+#*.wav
+#*.mp4
+diarization/.ipynb_checkpoints
+
+diarization/data/**/*.wav
+diarization/data/**/*.mp4
+diarization/data/*.txt
+diarization/data/*.xml
+diarization/*.tar
+diarization/README.local
+diarization/spherecluster/*
+diarization/SphereDiar/*
