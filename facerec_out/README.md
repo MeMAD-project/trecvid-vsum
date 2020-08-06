@@ -13,3 +13,23 @@ This output in particular shows low confidence scores (<0.3), so probably an ove
 ### 2.challenge_people
 
 Trained on the 3 people (Janine, Ryan, Stacey) which are focus of the challenge.
+
+
+### 3.coref_people
+
+Trained on 14 people, coreferenced in the wiki with the challenge people [include reference].
+The list is:
+- Ryan Malloy
+- Stacey Branning
+- Janine Malloy
+- Kat Moon
+- Pat Evans
+- Billy Mitchell
+- Alfie Moon
+- Phil Mitchell
+- Max Branning
+- Lauren Branning
+- Jean Slater
+- Julie Perkins
+- Ronnie Branning
+- Roxy Mitchell
