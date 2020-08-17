@@ -1,0 +1,71 @@
+<!DOCTYPE videoSummarizationResults SYSTEM "https://www-nlpir.nist.gov/projects/tv2020/dtds/videoSummarizationResults.dtd">
+<videoSummarizationResults>
+	<videoSummarizationRunResult pid="MeMAD" priority="4" desc="Run 4">
+		<videoSummarizationTopicResult  target="Janine" numShots="20" summTime="174.0">
+			<item seqNum="1" shotId="shot175_2247"/>
+			<item seqNum="2" shotId="shot176_1200"/>
+			<item seqNum="3" shotId="shot176_1785"/>
+			<item seqNum="4" shotId="shot176_2060"/>
+			<item seqNum="5" shotId="shot176_928"/>
+			<item seqNum="6" shotId="shot177_2024"/>
+			<item seqNum="7" shotId="shot178_51"/>
+			<item seqNum="8" shotId="shot181_116"/>
+			<item seqNum="9" shotId="shot181_1544"/>
+			<item seqNum="10" shotId="shot182_1108"/>
+			<item seqNum="11" shotId="shot182_14"/>
+			<item seqNum="12" shotId="shot182_1494"/>
+			<item seqNum="13" shotId="shot182_1681"/>
+			<item seqNum="14" shotId="shot182_676"/>
+			<item seqNum="15" shotId="shot183_1397"/>
+			<item seqNum="16" shotId="shot183_1411"/>
+			<item seqNum="17" shotId="shot183_1883"/>
+			<item seqNum="18" shotId="shot184_39"/>
+			<item seqNum="19" shotId="shot185_943"/>
+			<item seqNum="20" shotId="shot185_992"/>
+		</videoSummarizationTopicResult>
+		<videoSummarizationTopicResult  target="Ryan" numShots="20" summTime="198.1">
+			<item seqNum="1" shotId="shot175_1772"/>
+			<item seqNum="2" shotId="shot175_2247"/>
+			<item seqNum="3" shotId="shot176_1092"/>
+			<item seqNum="4" shotId="shot176_1200"/>
+			<item seqNum="5" shotId="shot176_1242"/>
+			<item seqNum="6" shotId="shot176_2060"/>
+			<item seqNum="7" shotId="shot177_2024"/>
+			<item seqNum="8" shotId="shot178_1549"/>
+			<item seqNum="9" shotId="shot179_1741"/>
+			<item seqNum="10" shotId="shot179_940"/>
+			<item seqNum="11" shotId="shot181_1084"/>
+			<item seqNum="12" shotId="shot181_116"/>
+			<item seqNum="13" shotId="shot181_1250"/>
+			<item seqNum="14" shotId="shot181_1544"/>
+			<item seqNum="15" shotId="shot182_1203"/>
+			<item seqNum="16" shotId="shot182_1279"/>
+			<item seqNum="17" shotId="shot182_1494"/>
+			<item seqNum="18" shotId="shot182_1681"/>
+			<item seqNum="19" shotId="shot183_1411"/>
+			<item seqNum="20" shotId="shot185_438"/>
+		</videoSummarizationTopicResult>
+		<videoSummarizationTopicResult  target="Stacey" numShots="20" summTime="158.1">
+			<item seqNum="1" shotId="shot175_941"/>
+			<item seqNum="2" shotId="shot176_1200"/>
+			<item seqNum="3" shotId="shot177_1793"/>
+			<item seqNum="4" shotId="shot177_2024"/>
+			<item seqNum="5" shotId="shot178_1549"/>
+			<item seqNum="6" shotId="shot178_51"/>
+			<item seqNum="7" shotId="shot179_1741"/>
+			<item seqNum="8" shotId="shot181_1250"/>
+			<item seqNum="9" shotId="shot182_1188"/>
+			<item seqNum="10" shotId="shot182_1279"/>
+			<item seqNum="11" shotId="shot182_1494"/>
+			<item seqNum="12" shotId="shot182_1509"/>
+			<item seqNum="13" shotId="shot182_57"/>
+			<item seqNum="14" shotId="shot184_1785"/>
+			<item seqNum="15" shotId="shot184_2212"/>
+			<item seqNum="16" shotId="shot184_2213"/>
+			<item seqNum="17" shotId="shot185_316"/>
+			<item seqNum="18" shotId="shot185_438"/>
+			<item seqNum="19" shotId="shot185_981"/>
+			<item seqNum="20" shotId="shot185_992"/>
+		</videoSummarizationTopicResult>
+	</videoSummarizationRunResult>
+</videoSummarizationResults>

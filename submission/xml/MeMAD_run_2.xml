@@ -1,0 +1,41 @@
+<!DOCTYPE videoSummarizationResults SYSTEM "https://www-nlpir.nist.gov/projects/tv2020/dtds/videoSummarizationResults.dtd">
+<videoSummarizationResults>
+	<videoSummarizationRunResult pid="MeMAD" priority="2" desc="Run 2">
+		<videoSummarizationTopicResult  target="Janine" numShots="10" summTime="110.1">
+			<item seqNum="1" shotId="shot176_1200"/>
+			<item seqNum="2" shotId="shot176_1785"/>
+			<item seqNum="3" shotId="shot176_2060"/>
+			<item seqNum="4" shotId="shot177_2024"/>
+			<item seqNum="5" shotId="shot178_51"/>
+			<item seqNum="6" shotId="shot181_116"/>
+			<item seqNum="7" shotId="shot182_14"/>
+			<item seqNum="8" shotId="shot182_1494"/>
+			<item seqNum="9" shotId="shot182_1681"/>
+			<item seqNum="10" shotId="shot183_1411"/>
+		</videoSummarizationTopicResult>
+		<videoSummarizationTopicResult  target="Ryan" numShots="10" summTime="121.7">
+			<item seqNum="1" shotId="shot175_1772"/>
+			<item seqNum="2" shotId="shot176_1092"/>
+			<item seqNum="3" shotId="shot176_1200"/>
+			<item seqNum="4" shotId="shot177_2024"/>
+			<item seqNum="5" shotId="shot178_1549"/>
+			<item seqNum="6" shotId="shot179_1741"/>
+			<item seqNum="7" shotId="shot182_1203"/>
+			<item seqNum="8" shotId="shot182_1681"/>
+			<item seqNum="9" shotId="shot183_1411"/>
+			<item seqNum="10" shotId="shot185_438"/>
+		</videoSummarizationTopicResult>
+		<videoSummarizationTopicResult  target="Stacey" numShots="10" summTime="83.7">
+			<item seqNum="1" shotId="shot175_941"/>
+			<item seqNum="2" shotId="shot176_1200"/>
+			<item seqNum="3" shotId="shot177_2024"/>
+			<item seqNum="4" shotId="shot178_1549"/>
+			<item seqNum="5" shotId="shot178_51"/>
+			<item seqNum="6" shotId="shot182_1509"/>
+			<item seqNum="7" shotId="shot184_2212"/>
+			<item seqNum="8" shotId="shot184_2213"/>
+			<item seqNum="9" shotId="shot185_316"/>
+			<item seqNum="10" shotId="shot185_981"/>
+		</videoSummarizationTopicResult>
+	</videoSummarizationRunResult>
+</videoSummarizationResults>

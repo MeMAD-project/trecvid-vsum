@@ -1,9 +1,17 @@
+*/.ipynb_checkpoints
+
 # Git ignore for the diarization folder
 
-diarization/.ipynb_checkpoints
 diarization/data/**/*.wav
 diarization/data/**/*.mp4
 diarization/data/*.txt
 diarization/data/*.xml
 diarization/*.tar
 diarization/README.local
+
+
+# Git ignore for submission
+
+submission/videos
+submission/videos/*
+
