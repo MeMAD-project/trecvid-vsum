@@ -13,8 +13,8 @@ Please cite the following if you use this code.
 MeMAD approach for the TRECVID VSUM 2020 task
 1) Scrap synopses following the instructions in the  `README.md`under 
 [`scraping`](./scraping/)
-2) Perform coreference using coref/coref.ipynb
+2) Perform coreference using [`coref/coref.ipynb`](./coref/coref.ipynb)
 3) Face recognition
-4) Generate the summaries with submission/submission_generation.ipynb
+4) Generate the summaries with [`submission/submission_generation.ipynb`](./submission/submission_generation.ipynb)
 
 ![Model architecture](vsum.jpg)
