@@ -22,8 +22,9 @@ The output is a pickle of dictionary ('episodes_data.pickle') Requirements: inst
 
 
 2) Perform coreference on the pickle file you just created ('episodes_data.pickle') to explicit character mentions using [`coref/coref.ipynb`](./coref/coref.ipynb) created from [neuralcoref](https://github.com/huggingface/neuralcoref). Outputs 'coref_results.pickle'
-3) Face recognition
-We performed face recognotion using on different sets of EastEnders characters. The results can be found under [facerec_out](./facerecout)
+3) Face recognition :
+We select the shots displaying any of the the three characters of interests, keeping only those detection having a confidence scoregreater than 0.5
+In order to do so, we performed face recognotion using on different sets of EastEnders characters. The results can be found under [facerec_out](./facerecout) Note  : this folder also includes facerec results for larger pools of characters, which were not used in the final submission.  
 5) Generate the summaries with [`submission/submission_generation.ipynb`](./submission/submission_generation.ipynb)
 
 Experiments not included in the final approach for TRECVID VSUM 2020 task : 
