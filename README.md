@@ -13,7 +13,7 @@ Please cite the following if you use this code.
 Steps to reproduce the final MeMAD approach for the TRECVID VSUM 2020 task
 ![Model architecture](vsum.jpg)
 
-1) Using [`./transcripts/shots_transcripts_alignment.ipynb`]([shots_transcripts_alignment.ipynb]), align the transcript content with the shot ID (i.e. finding what was said in each shot based on the transcript and shot boundaries)
+1) Using [./transcripts/shots_transcripts_alignment.ipynb]([shots_transcripts_alignment.ipynb]), align the transcript content with the shot ID (i.e. finding what was said in each shot based on the transcript and shot boundaries)
 2) Scrape synopses and casting information from the pages of the [EastEnders fandom wiki](https://eastenders.fandom.com/wiki/) using
 [`scraping/scraping_wikia.py`](./scraping/scraping_wikia.py).
 The script is standalone and only requires the two included XML files (episode code to file name mapping + episdoe descriptions). 
