@@ -19,7 +19,7 @@ The output is a pickle of dictionary. Requirements: installing BeautifulSoup `pi
 
 
 
-2) Perform coreference to explicit character mentions using [`coref/coref.ipynb`](./coref/coref.ipynb) created from [`neuralcoref`]((https://github.com/huggingface/neuralcoref)
+2) Perform coreference to explicit character mentions using [`coref/coref.ipynb`](./coref/coref.ipynb) created from [neuralcoref](https://github.com/huggingface/neuralcoref)
 3) Face recognition
 4) Generate the summaries with [`submission/submission_generation.ipynb`](./submission/submission_generation.ipynb)
 
