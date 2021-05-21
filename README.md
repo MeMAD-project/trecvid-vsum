@@ -26,7 +26,6 @@ The output is a pickle of dictionary ('episodes_data.pickle)' Requirements: inst
 4) Generate the summaries with [`submission/submission_generation.ipynb`](./submission/submission_generation.ipynb)
 
 Experiments not included in the final approach for TRECVID VSUM 2020 task : 
-
 Concatening subtitles with automatically generated captions, see [`captions`](./captions)
 
 
