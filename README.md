@@ -19,13 +19,11 @@ The script is standalone and only requires the two included XML files (episode c
 The output is a pickle of dictionary ('episodes_data.pickle') Requirements: installing BeautifulSoup `pip install bs4`.
 
 
-
-
 2) Perform coreference on the pickle file you just created ('episodes_data.pickle') to explicit character mentions using [`coref/coref.ipynb`](./coref/coref.ipynb) created from [neuralcoref](https://github.com/huggingface/neuralcoref). Outputs 'coref_results.pickle'
-3) Face recognition :
-We select the shots displaying any of the the three characters of interests, keeping only those detection having a confidence scoregreater than 0.5.
-In order to do so, we performed face recognition using our [Face Recognition Service](https://github.com/D2KLab/FaceRec). The results can be found under [facerec_out](./facerec_out) (2.challenge_people). Note : this folder also includes facerec results for a larger pool of EastEnders characters, which experimented with but did not use in the final submission.  
-5) Generate the summaries with [`submission/submission_generation.ipynb`](./submission/submission_generation.ipynb)
+3) Face recognition: we select the shots displaying any of the the three characters of interests, keeping only those detection having a confidence scoregreater than 0.5 ([`facerec_segment/facerec_query_characters.csv`]).
+In order to do so, we performed face recognition using our  [Face Recognition Service](https://github.com/D2KLab/FaceRec). The results can be found under [facerec_out](./facerec_out) (2.challenge_people). 
+Note : this folder also includes facerec results for a larger pool of EastEnders characters, as well as results of facerec with different thresholds of confidence, which experimented with but did not use in the final submission.
+5) Generate the shot candidate shots for the summary with [`submission_generation.ipynb`](./submission/submission_generation.ipynb). This is done by first concatenating the output of the previous steps (i.e. aligning coreference-resolved transcripts and facerec output with the (master shot reference table)[facerec_segment/eastenders.masterShotReferenceTable.txt]), so that the content of each shot is aligned (time-wise) with the shot IDs. The next step is to compute the similarity between each shot content and the synopses sentences as described in the paper. The N shots (N varying per run) with the higher similarity scores are picked and written into XML files ([`submissions`](./submission/xml)).
 
 Experiments not included in the final approach for TRECVID VSUM 2020 task : 
 
