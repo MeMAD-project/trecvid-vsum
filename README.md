@@ -10,7 +10,7 @@ Please cite the following if you use this code.
 ```
 
 # trecvid-vsum
-MeMAD approach for the TRECVID VSUM 2020 task
+Steps to reproduce the final MeMAD approach for the TRECVID VSUM 2020 task
 1) Scraping synopses and casting information from the pages of the [EastEnders fandom wiki](https://eastenders.fandom.com/wiki/) using
 [`scraping/scraping_wikia.py`](./scraping/scraping_wikia.py).
 The script is standalone and only requires the two included XML files (episode code to file name mapping + episdoe descriptions). 
