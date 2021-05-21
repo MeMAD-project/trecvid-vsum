@@ -14,7 +14,7 @@ MeMAD approach for the TRECVID VSUM 2020 task
 1) Scrap synopses and casting information from the pages of the [EastEnders fandom wiki](https://eastenders.fandom.com/wiki/) using
 [`scraping/scraping_wikia.py`](./scraping/scraping_wikia.py).
 The script is standalone and only requires the two included XML files (episode code to file name mapping + episdoe descriptions). 
-The output is a pickle of dictionary. Requirements: installing BeautifulSoup `pip install bs4`.
+The output is a pickle of dictionary ('episodes_data.pickle)' Requirements: installing BeautifulSoup `pip install bs4`.
 
 
 
