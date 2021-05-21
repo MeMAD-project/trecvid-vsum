@@ -11,6 +11,8 @@ Please cite the following if you use this code.
 
 # trecvid-vsum
 Steps to reproduce the final MeMAD approach for the TRECVID VSUM 2020 task
+![Model architecture](vsum.jpg)
+
 1) Scraping synopses and casting information from the pages of the [EastEnders fandom wiki](https://eastenders.fandom.com/wiki/) using
 [`scraping/scraping_wikia.py`](./scraping/scraping_wikia.py).
 The script is standalone and only requires the two included XML files (episode code to file name mapping + episdoe descriptions). 
@@ -23,4 +25,8 @@ The output is a pickle of dictionary ('episodes_data.pickle)' Requirements: inst
 3) Face recognition
 4) Generate the summaries with [`submission/submission_generation.ipynb`](./submission/submission_generation.ipynb)
 
-![Model architecture](vsum.jpg)
+Experiments not included in the final approach for TRECVID VSUM 2020 task : 
+
+Concatening subtitles with automatically generated captions, see [`captions`](./captions)
+
+
