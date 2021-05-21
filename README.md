@@ -16,7 +16,7 @@ Steps to reproduce the final MeMAD approach for the TRECVID VSUM 2020 task
 1) Using [`shots_transcripts_alignment.ipynb`](./transcripts/shots_transcripts_alignment.ipynb), align the transcript content with the shot ID i.e. given the transcript files and [master shot reference table](./facerec_segment/eastenders.masterShotReferenceTable.txt), a CSV containing what was said in each shot (based on the transcript and shot boundaries) is produced ([shot-aligned_transcripts.csv](./transcripts/shot-aligned_transcripts.csv)).
 2) Scrape synopses and casting information from the pages of the [EastEnders fandom wiki](https://eastenders.fandom.com/wiki/) using
 [`scraping/scraping_wikia.py`](./scraping/scraping_wikia.py).
-The script is standalone and only requires the two included XML files (episode code to file name mapping + episdoe descriptions). 
+The script is standalone and only requires the two included XML files (episode code to file name mapping + episode descriptions). 
 The output is a pickle of dictionary ('episodes_data.pickle') Requirements: installing BeautifulSoup `pip install bs4`.
 2) Perform coreference on the pickle file you just created ('episodes_data.pickle') to explicit character mentions using [`coref/coref.ipynb`](./coref/coref.ipynb) created from [neuralcoref](https://github.com/huggingface/neuralcoref). Outputs 'coref_results.pickle'
 3) Face recognition: we select the shots displaying any of the the three characters of interests, keeping only those detection having a confidence scoregreater than 0.5 ([`facerec_query_characters.csv`](./facerec_segment/facerec_query_characters.csv)).
