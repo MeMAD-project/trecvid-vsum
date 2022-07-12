@@ -23,8 +23,8 @@ For the 2021 submission
 }
 ```
 
-# trecvid-vsum
-Steps to reproduce the final MeMAD approach for the TRECVID VSUM 2020 task
+# Steps to reproduce the final MeMAD approach for the TRECVID VSUM 2020 task
+
 ![Model architecture](vsum.jpg)
 
 1) Using [`shots_transcripts_alignment.ipynb`](./transcripts/shots_transcripts_alignment.ipynb), align the transcript content with the shot ID i.e. given the transcript files and [master shot reference table](./facerec_segment/eastenders.masterShotReferenceTable.txt), a CSV containing what was said in each shot (based on the transcript and shot boundaries) is produced ([shot-aligned_transcripts.csv](./transcripts/shot-aligned_transcripts.csv)).
@@ -44,3 +44,6 @@ Experiments not included in the final approach for TRECVID VSUM 2020 task :
 2) Diarization of the video segments, see [`diarization`](./diarization)
 
 
+# Steps to reproduce the final MeMAD approach for the TRECVID VSUM 2021 task
+
+![Model architecture](vsum_21.png)
