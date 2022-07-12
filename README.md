@@ -47,3 +47,5 @@ Experiments not included in the final approach for TRECVID VSUM 2020 task :
 # Steps to reproduce the final MeMAD approach for the TRECVID VSUM 2021 task
 
 ![Model architecture](vsum_21.png)
+
+Follow the notebook    [`Zero_Shot_Pipeline_eastenders.ipynb`](./Zero_Shot_Pipeline_eastenders.ipynb)
