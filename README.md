@@ -1,11 +1,25 @@
+This repository contains code for the MeMAD team at the TRECVID VSUM 2020 and TRECVID VSUM 2021 tasks.
+
+
 
 Please cite the following if you use this code.
+For the 2020 submission
 ```
 @inproceedings{harrando2020using,
   title={Using Fan-Made Content, Subtitles and Face Recognition for Character-Centric Video Summarization},
   author={Harrando, Ismail and Reboud, Alison and Lisena, Pasquale and Troncy, Rapha{\"e}l and Laaksonen, Jorma and Virkkunen, Anja and Kurimo, Mikko and others},
   booktitle={International Workshop on Video Retrieval Evaluation},
   year={2020}
+}
+```
+
+For the 2021 submission
+```
+@inproceedings{reboud2021using,
+  title={Zero-Shot Classification of Events for Character-Centric Video Summarization},
+  author={Reboud, Alison and Harrando, Ismail and Lisena, Pasquale and Troncy, Rapha{\"e}l and Laaksonen, Jorma and Virkkunen, Anja and Kurimo, Mikko and others},
+  booktitle={International Workshop on Video Retrieval Evaluation},
+  year={2021}
 }
 ```
 
